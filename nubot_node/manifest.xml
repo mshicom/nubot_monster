@@ -1,0 +1,17 @@
+<package>
+  <description brief="nubot_node">
+
+     nubot_node
+
+  </description>
+  <author>nubot</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/nubot_node</url>
+  <depend package="roscpp"/>
+  <depend package="nubot_driver"/>
+  <depend package="nubot_msgs"/>
+
+</package>
+
+

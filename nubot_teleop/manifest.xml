@@ -1,0 +1,16 @@
+<package>
+  <description brief="nubot_teleop">
+
+     nubot_teleop
+
+  </description>
+  <author>nubot</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/nubot_teleop</url>
+  <depend package="roscpp"/>
+  <depend package="nubot_msgs"/>
+
+</package>
+
+

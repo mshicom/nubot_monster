@@ -1,0 +1,22 @@
+#!/usr/bin/env bash                                                             
+ 
+ROOT=$PWD
+FILES=*/
+
+echo "Build all ROS projects in this directory"
+for DIR in $FILES; do
+    cd $ROOT
+    cd $DIR
+    rosmake
+done
+cd $ROOT
+
+echo "Generating eclipse projects for all ROS projects in this directory"
+for DIR in $FILES; do
+    cd $ROOT
+    cd $DIR
+    cmake -G"Eclipse CDT4 - Unix Makefiles"
+done
+cd $ROOT
+
+
